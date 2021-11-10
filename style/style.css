@@ -80,9 +80,10 @@ header {
 
 .banner-content {
   position: absolute;
-  width: 530px;
   left: 70px;
   bottom: 140px;
+  max-width: 530px;
+  width: 100%;
 }
 .tag {
   background: rgba(255, 255, 255, 0.15);
@@ -98,12 +99,22 @@ header {
 
 .banner_h1 {
   margin: 15px 0px;
-  font-size: 36px;
   color: #ffffff;
+  max-height: 92px;
+  max-width: 530px;
+  font-size: 18px;
 }
+
 .middle-line {
   height: 1px;
   width: 30px;
   background: #e5e5e5;
-  margin: 0px 11px;
+  margin: 7px 11px 0px 11px;
+}
+
+.banner-info {
+  display: flex;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #e5e5e5;
 }
