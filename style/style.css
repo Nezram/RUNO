@@ -160,7 +160,7 @@ header {
 .pop-top_blog {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 50px 20px;
 }
 
 .pop-top_card {
