@@ -168,7 +168,6 @@ header {
   height: 450px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
   position: relative;
 }
 
