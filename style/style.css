@@ -9,7 +9,7 @@ ul {
   list-style: none;
 }
 body {
-  font-family: ""Lora"", serif;
+  font-family: "" Lora "", serif;
   font-weight: 400;
 }
 .font-roboto {
@@ -327,4 +327,86 @@ header {
   color: #495057;
   font-size: 36px;
   line-height: 46px;
+}
+
+.container_menu {
+  width: 100%;
+  background: #212529;
+}
+
+.container_menu-content {
+  padding: 106px 110px;
+  padding-right: 208px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headquarter {
+  width: 114px;
+}
+
+.container_menu-content ul li {
+  margin-bottom: 16px;
+  color: #e5e5e5;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.container_menu-content ul li h5 {
+  color: #ffffff;
+  margin-bottom: 18px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container_menu-content div h5 {
+  color: #ffffff;
+  margin-bottom: 18px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.container_menu-content__soc_ul {
+  display: flex;
+}
+
+.container_menu-content__soc_ul li {
+  margin-right: 18px;
+}
+
+.subscribe-flex {
+  width: 100%;
+  height: 80px;
+  background: #343a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe-flex p {
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #e5e5e5;
+  margin: 31px 106px;
+}
+
+.subscribe-flex p a {
+  color: #e5e5e5;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
 }
